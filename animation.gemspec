@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files += Dir.glob("stylesheets/**/*.*")
 
   # Gem Bookkeeping
-  s.add_dependency("sass", [">= 3.2.0.alpha.95"])
+  s.add_dependency("sass", [">= 3.2.0"])
   s.add_dependency("compass", [">= 0.12.0"])
 end
 
